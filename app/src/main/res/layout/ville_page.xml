@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VillePage">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="@drawable/backgroundimg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="310sp"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            tools:context=".VillePage">
+
+            <TextView
+                android:id="@+id/textViewMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewNumber"
+                android:text="Il y'a actuellement "
+                android:textSize="25dp"
+                android:fontFamily="sans-serif-medium"/>
+
+            <TextView
+                android:id="@+id/textViewNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Nbr City"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#0E4D85"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="350sp"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            tools:context=".VillePage">
+
+            <TextView
+                android:id="@+id/textViewMessage2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewNumber"
+                android:text="annonce(s) sur "
+                android:textSize="25dp"
+                android:fontFamily="sans-serif-medium"/>
+
+            <TextView
+                android:id="@+id/textViewVille"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selected City"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#09467C"/>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

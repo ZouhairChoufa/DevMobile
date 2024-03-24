@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" >Annoncement Application</string>
+    <string name="accept_terms_text">I accept the terms and conditions</string>
+    <string name="create_account_text">Create Account</string>
+
+</resources>
